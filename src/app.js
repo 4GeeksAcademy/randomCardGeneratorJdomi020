@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = () => {
   document.querySelector(".card").classList.add(generateRandomSuit());
-  document.querySelector(".card").innerHTML = generateRandomNumber;
+  document.querySelector(".card").innerHTML = generateRandomNumber();
 
   // setTimeout(() => {
   //   document.querySelector('.card').classList.remove('heart');
